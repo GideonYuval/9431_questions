@@ -117,9 +117,13 @@ namespace _9431_questions
         }
 
         //Q4
-        //return the minimum number of transitions from root to leaf in a tree
+        //return the maximum number of transitions from root to leaf in a tree
         //example: root:5->5->6->3 = 2 transitions
-
+        //part 2 - solve also for MinTransitions
+        static int MaxTransitions(BinNode<int> root)
+        {
+            return 0;
+        }
         static int MinTransitions(BinNode<int> root)
         {
             return 0;
